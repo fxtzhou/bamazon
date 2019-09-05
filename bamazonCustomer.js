@@ -15,5 +15,12 @@ connection.connect(function (err) {
 });
 
 function start() {
-
+    console.log("Showing all products...\n");
+    var query = connection.query("SELECT * FROM products", function (err, res) {
+        if (err) throw (err);
+        console.log(res);
+        connection.end();
+    })
 }
+
+start();
