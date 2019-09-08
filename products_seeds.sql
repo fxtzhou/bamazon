@@ -1,7 +1,7 @@
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
 VALUES 
 (1, "Nintendo Switch", "Electronics", 299.99, 30),
-(2, "Collection of Mana - Nintendo Switch", "Video Games", 33.84, 1),
+(2, "Collection of Mana - Nintendo Switch", "Video Games", 33.84, 99),
 
 (3, "Star Wars: Galaxy's Edge A Crash of Fate", "Books", 12.39, 50),
 (4, "Amazon Essentials Men's Athletic-Fit Stretch Jean", "Men's Clothing", 34.10, 10),
